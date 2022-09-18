@@ -1,0 +1,138 @@
+/*Roboto*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;700&display=swap');
+/*Lato*/
+@font-face{
+	font-family: "lato";
+	src: url("../fonts/lato-Regular.woff2") format("woff2"),url("../fonts/lato-Regular.woff")format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: "lato";
+	src: url("../fonts/lato-Bold.woff2") format("woff2"),url("../fonts/lato-Bold.woff")format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face{
+	font-family: "lato";
+	src: url("../fonts/lato-Black.woff2") format("woff2"),url("../fonts/lato-Black.woff")format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+/*Larsseit*/
+@font-face{
+	font-family: "larsseit";
+	src: url("../fonts/larsseit-Regular.woff2") format("woff2"),url("../fonts/lato-Regular.woff")format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: "larsseit";
+	src: url("../fonts/larsseit-Medium.woff2") format("woff2"),url("../fonts/larsseit-Medium.woff")format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face{
+	font-family: "larsseit";
+	src: url("../fonts/larsseit-Bold.woff2") format("woff2"),url("../fonts/larsseit-Bold.woff")format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+/*/*Обнулення (reset)*/*/
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a {
+	color: inherit;
+}
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+/*Стилізація*/
+h1{
+	color: red;
+	font-family: lato, serif;
+}
+.ukraine-lang *{
+font-family: "larsseit", sans-serif;
+}
+.ukraine-lang>p{
+	color: rgb(3, 3, 78);
+}
+.ukraine-lang a{
+	font-family:"lato", sans-serif;
+}
+.text-aqua>p{
+	color: blue;
+}
+.text-aqua~p{
+	color: rgb(3, 139, 3);
+}
+.english-lang{
+	color: blueviolet;
+	font-family: "Roboto",sans-serif;
+}
+.english-lang>div{
+	color: rgb(252, 8, 219);
+	font-family: "Roboto",sans-serif;
+}
+.footer+a{
+	color: red;
+	font-family: "lato", sans-serif;
+}
+.english-lang a{
+	font-family:"lato", sans-serif;
+}
+.link {
+	color: rgb(235, 14, 14);
+}
+.footer {
+	color: blue;
+	font-family: "larsseit", sans-serif;
+}
+span{
+	color: orange;
+	font-family: "Roboto", sans-serif;
+}
